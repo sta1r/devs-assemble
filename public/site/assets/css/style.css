@@ -1,0 +1,12 @@
+body {
+  background-color: #f53b4c;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.map {
+  height: 400px;
+}

@@ -1,0 +1,14 @@
+@import "variables";
+
+body {
+	background-color: $red;
+	font-family: $sansFontFamily;
+}
+
+h1 {
+	font-family: 'Press Start 2P', cursive;
+}
+
+.map {
+	height: 400px;
+}
