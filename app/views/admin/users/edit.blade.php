@@ -6,6 +6,12 @@
 
 {{ Notification::showAll() }}
 
+	<div class="row">
+		<div class="col-md-12 map">
+			<div id="user_map_canvas" style="width:100%; height:100%"></div>
+		</div>
+	</div>
+
 {{ Form::model($user, array('method' => 'put', 'route' => array('admin.users.update', $user->id))) }}
 
 	<p>
