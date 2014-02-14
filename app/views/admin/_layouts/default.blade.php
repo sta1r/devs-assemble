@@ -86,5 +86,7 @@
         
 
     </div>
+
+    @include('admin._partials.scripts')
 </body>
 </html>
